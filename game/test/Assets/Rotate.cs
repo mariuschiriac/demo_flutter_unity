@@ -1,7 +1,8 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class Rotate : MonoBehaviour
+public class Rotate : MonoBehaviour, IEventSystemHandler
 {
     [SerializeField]
     Vector3 RotateAmount;
